@@ -58,7 +58,7 @@
             method: 'POST',
             params: { loginId, nickname, loginPwd }
         });
-        res && window.location.replace("./index.html");
+        res && window.location.replace(baseURL + "index.html");
         // // 声明变量，并且存入上面获取的数据
         // const result = await res.json();
         // // 判断是否没有错误

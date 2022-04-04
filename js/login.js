@@ -37,7 +37,7 @@
                 method: 'POST',
                 params: { loginId, loginPwd }
             });
-            res && window.location.replace("./index.html");
+            res && window.location.replace(baseURL + "index.html");
             // // 调用fetch发送数据并且传入细致信息
             // const res = await fetch("https://study.duyiedu.com/api/user/login", {
             //     // 传入方法是POST

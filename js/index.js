@@ -46,7 +46,7 @@
             // 清空sessionStorage
             sessionStorage.removeItem('token');
             // 页面跳转
-            window.location.replace("./login.html");
+            window.location.replace(baseURL + "login.html");
         }
         // 定义键盘按下事件 
     const onInputContainerKeyUp = (e) => {

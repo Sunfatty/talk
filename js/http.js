@@ -67,7 +67,7 @@ const fethcFn = async({ url, method = 'GET', params = {} }) => {
                 // 删除存储的token
                 sessionStorage.removeItem('token');
                 // 跳转回登陆页面
-                window.location.replace('./login.html');
+                window.location.replace(baseURL + 'login.html');
                 // 不想让他再次跳出错误信息所以直接跳出 
                 return
             }
